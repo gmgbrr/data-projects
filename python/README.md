@@ -2,7 +2,11 @@
 
 | Python | Description |
 | --- | --- |
-| `Who Is Drunk and When in Ames, Iowa?`| `Flex your data manipulation muscles on breath alcohol test data from Ames, Iowa, USA` |
-| `Exploring the history of LEGO`| `Analyze the relative popularity of programming languages over time based on Stack Overflow data` |
-| `Bad passwords and the NIST guidelines`| `Check what passwords fail to conform to the National Institute of Standards and Technology password guideline` |
-| `Level Difficulty in Candy Crush Saga(in work)`| `Analyze data from the hit mobile game, Candy Crush Saga` |
+| `Who Is Drunk and When in Ames, Iowa?`| `Analisando os dados de bafômetros em Ames, Iowa` |
+| `Exploring the history of LEGO`| `Analisando padrões de peças durante a história da LEGO` |
+| `Bad passwords and the NIST guidelines`| `Verificando senhas que falham conforme os padrões da NIST` |
+| `Level Difficulty in Candy Crush Saga`| `Analisando padrões de dificuldade no famoso jogo mobile Candy Crush` |
+
+
+
+
