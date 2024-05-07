@@ -1,0 +1,46 @@
+use escola;
+show tables;
+
+/* TABELA PRINCIPAL DE ALUNOS */
+CREATE TABLE Aluno (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  nome VARCHAR(50) NOT NULL,
+  sobrenome VARCHAR(60) NOT NULL,
+  genero CHAR(2) NOT NULL,
+  matricula CHAR(10) NOT NULL,
+  turma_id INT NOT NULL,
+  pagamento VARCHAR(8) NOT NULL,
+  celResponsavel CHAR(11) NOT NULL,
+  emailResponsavel VARCHAR(40) NOT NULL
+);
+
+/* TABELA PARA TURMAS*/
+CREATE TABLE Turma (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  codigo CHAR(5) NOT NULL,
+  sala CHAR(1) NOT NULL,
+  turno CHAR(5) NOT NULL
+);
+
+/* UNINDO AS TABELAS */
+ALTER TABLE Aluno ADD COLUMN turma_id INT;
+ALTER TABLE Aluno ADD FOREIGN KEY (turma_id) REFERENCES Turma(id);
+
+/* TABELA COM INFORMAÇÕES PARA LOGIN */
+CREATE TABLE Usuario (
+	id INT PRIMARY KEY AUTO_INCREMENT,
+    login varchar(20) NOT NULL,
+    senha varchar(100) DEFAULT NULL
+) engine = innodb default charset = latin1;
+
+select * from aluno;
+INSERT INTO aluno(nome, sobrenome, genero, matricula, turma_id, pagamento, celResponsavel, emailResponsavel) VALUES("Gabriel","Marinho","M","1128372618",1,"Ok","21980920659","marc.hfernando@gmail.com");
+
+select * from turma;
+INSERT INTO turma(codigo, sala, turno) VALUES("09271", "A", "Tarde");
+
+select * from usuario;
+select login, cast(aes_decrypt(senha, "key") as char(100)) as "senha" from usuario; /* visualizando senhas sem criptografia*/
+INSERT INTO usuario(login, senha) VALUES("admin", aes_encrypt("1234", "key"));
+
+
