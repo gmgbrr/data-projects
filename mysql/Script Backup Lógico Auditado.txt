@@ -1,0 +1,72 @@
+create database clientes;
+use clientes;
+
+create table user (
+	ID_User int primary key auto_increment,
+    Nome varchar(40),
+    email varchar(80)
+);
+
+INSERT INTO USER VALUES(null, "Pedro", "pedroh123@gmail.com");
+INSERT INTO USER VALUES (null, 'Mariana', 'mariana@gmail.com');
+INSERT INTO USER VALUES (null, 'Rafael', 'rafael@email.com');
+INSERT INTO USER VALUES (null, 'Lucas', 'lucas@yahoo.com');
+INSERT INTO USER VALUES (null, 'Gustavo', 'gustavo@gov.org');
+
+
+CREATE DATABASE BACKUP_CLIENTE;
+USE BACKUP_CLIENTE;
+
+create table user(
+	ID int primary key auto_increment,
+    ID_User int,
+    Nome varchar(40),
+    Email varchar(80),
+    Data datetime,
+    Usuario varchar(30),
+    Evento char(1)
+);
+
+
+USE clientes;
+
+DELIMITER $
+
+CREATE TRIGGER AUDIT_CLIENTE_UPD
+BEFORE UPDATE ON user
+FOR EACH ROW
+BEGIN
+
+	INSERT INTO BACKUP_CLIENTE.user VALUES(null, old.ID_User, old.Nome, old.email, now(), current_user(), 'U');
+
+END
+$
+
+CREATE TRIGGER AUDIT_CLIENTE_DEL
+BEFORE DELETE ON user
+FOR EACH ROW
+BEGIN
+
+	INSERT INTO BACKUP_CLIENTE.user VALUES(null, old.ID_User, old.Nome, old.email, now(), current_user(), 'D');
+
+END
+$
+
+CREATE TRIGGER AUDIT_CLIENTE_INS
+AFTER INSERT ON user
+FOR EACH ROW
+BEGIN
+
+	INSERT INTO BACKUP_CLIENTE.user VALUES(null, new.ID_User, new.Nome, new.email, now(), current_user(), 'I');
+
+END
+$
+
+
+DELIMITER ;
+
+UPDATE user SET Nome = 'Dedé' WHERE ID_User = 2;
+DELETE FROM user where id_user = 1;
+INSERT INTO user VALUES(null, 'Fernando', 'nando23fla@gmail.com');
+
+select * from backup_cliente.user;
