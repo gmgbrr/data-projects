@@ -1,6 +1,6 @@
-## Projects
+## Projetos
 
-| Python | Description |
+| Python | Descrição |
 | --- | --- |
 | `Who Is Drunk and When in Ames, Iowa?`| `Analisando os dados de bafômetros em Ames, Iowa` |
 | `Exploring the history of LEGO`| `Analisando padrões de peças durante a história da LEGO` |
