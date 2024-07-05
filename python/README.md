@@ -1,7 +1,7 @@
 ## Projetos
 
 | Nome | Descrição | Conteúdo |
-| --- | --- |
+| --- | --- | --- |
 | `Bad passwords and the NIST guidelines`| `Verificando senhas que falham aos padrões da NIST` | `pandas` `ggplot` `numpy` |
 | `Exploring the history of LEGO`| `Analisando padrões de peças durante a história da LEGO` | `pandas` `ggplot` `numpy` |
 | `Level difficulty in Candy Crush saga`| `Analisando padrões de dificuldade no  Candy Crush` | `pandas` `ggplot` `numpy` |
