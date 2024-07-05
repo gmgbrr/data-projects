@@ -1,6 +1,6 @@
 ## Projetos
 
-| Nome | Descrição | | Conteúdo |
+| Nome | Descrição | Conteúdo |
 | --- | --- |
 | `Bad passwords and the NIST guidelines`| `Verificando senhas que falham aos padrões da NIST` | `pandas` `ggplot` `numpy` |
 | `Exploring the history of LEGO`| `Analisando padrões de peças durante a história da LEGO` | `pandas` `ggplot` `numpy` |
