@@ -4,7 +4,6 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from unidecode import unidecode
-import funcoes
 import csv
 
 def writeCsv(data):
@@ -41,7 +40,7 @@ try:
     tipo = driver.find_element(By.XPATH, '//*[@id="content"]/div[2]/div/div[2]/div[1]/div[36]/div/div/div/div[4]/div[4]/div/div[2]/span[2]').text
     quilometragem = int(driver.find_element(By.XPATH, '//*[@id="content"]/div[2]/div/div[2]/div[1]/div[36]/div/div/div/div[4]/div[6]/div/div[2]/span[2]').text)
     motor = driver.find_element(By.XPATH, '//*[@id="content"]/div[2]/div/div[2]/div[1]/div[36]/div/div/div/div[4]/div[7]/div/div[2]/span[2]').text
-    preco = funcoes.castPreco(driver.find_element(By.XPATH, '//*[@id="content"]/div[2]/div/div[2]/div[1]/div[21]/div/div/div/div/div[1]/h2').text)
+    preco = castPreco(driver.find_element(By.XPATH, '//*[@id="content"]/div[2]/div/div[2]/div[1]/div[21]/div/div/div/div/div[1]/h2').text)
     regiao = driver.find_element(By.XPATH, '//*[@id="content"]/div[2]/div/div[1]/div/div/div/div[1]/a').text
     cambio = driver.find_element(By.XPATH, '//*[@id="content"]/div[2]/div/div[2]/div[1]/div[36]/div/div/div/div[4]/div[10]/div/div[2]/span[2]').text
 except Exception as e:
@@ -50,8 +49,8 @@ except Exception as e:
 carro = [modelo, marca, ano, direcao, cor, combustivel, tipo, quilometragem, motor, preco, regiao, cambio]
 
 carro = [item.lower() if isinstance(item, str) else item for item in carro] 
-carro = [unidecode(texto) if isinstance(texto, str) else texto for texto in carro]
+carro = [unidecode(item) if isinstance(item, str) else item for item in carro]
 carros.append(carro)
 
-funcoes.writeCsv(carros)
+writeCsv(carros)
 print(carros)
