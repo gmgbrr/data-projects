@@ -1,0 +1,470 @@
+[
+    {
+        "date": "01/2018",
+        "cpi all items": "248.859",
+        "cpi all less food and energy": "255.204",
+        "cpi gasoline": "235.325"
+    },
+    {
+        "date": "02/2018",
+        "cpi all items": "249.529",
+        "cpi all less food and energy": "255.711",
+        "cpi gasoline": "239.767"
+    },
+    {
+        "date": "03/2018",
+        "cpi all items": "249.577",
+        "cpi all less food and energy": "256.271",
+        "cpi gasoline": "231.325"
+    },
+    {
+        "date": "04/2018",
+        "cpi all items": "250.227",
+        "cpi all less food and energy": "256.630",
+        "cpi gasoline": "238.803"
+    },
+    {
+        "date": "05/2018",
+        "cpi all items": "250.792",
+        "cpi all less food and energy": "257.145",
+        "cpi gasoline": "242.344"
+    },
+    {
+        "date": "06/2018",
+        "cpi all items": "251.018",
+        "cpi all less food and energy": "257.399",
+        "cpi gasoline": "243.105"
+    },
+    {
+        "date": "07/2018",
+        "cpi all items": "251.214",
+        "cpi all less food and energy": "257.699",
+        "cpi gasoline": "241.377"
+    },
+    {
+        "date": "08/2018",
+        "cpi all items": "251.663",
+        "cpi all less food and energy": "257.891",
+        "cpi gasoline": "246.229"
+    },
+    {
+        "date": "09/2018",
+        "cpi all items": "252.182",
+        "cpi all less food and energy": "258.368",
+        "cpi gasoline": "250.369"
+    },
+    {
+        "date": "10/2018",
+        "cpi all items": "252.772",
+        "cpi all less food and energy": "258.917",
+        "cpi gasoline": "253.471"
+    },
+    {
+        "date": "11/2018",
+        "cpi all items": "252.594",
+        "cpi all less food and energy": "259.439",
+        "cpi gasoline": "238.309"
+    },
+    {
+        "date": "12/2018",
+        "cpi all items": "252.767",
+        "cpi all less food and energy": "260.063",
+        "cpi gasoline": "225.063"
+    },
+    {
+        "date": "01/2019",
+        "cpi all items": "252.561",
+        "cpi all less food and energy": "260.766",
+        "cpi gasoline": "208.730"
+    },
+    {
+        "date": "02/2019",
+        "cpi all items": "253.319",
+        "cpi all less food and energy": "261.186",
+        "cpi gasoline": "217.237"
+    },
+    {
+        "date": "03/2019",
+        "cpi all items": "254.277",
+        "cpi all less food and energy": "261.567",
+        "cpi gasoline": "230.013"
+    },
+    {
+        "date": "04/2019",
+        "cpi all items": "255.233",
+        "cpi all less food and energy": "261.997",
+        "cpi gasoline": "245.651"
+    },
+    {
+        "date": "05/2019",
+        "cpi all items": "255.296",
+        "cpi all less food and energy": "262.217",
+        "cpi gasoline": "242.557"
+    },
+    {
+        "date": "06/2019",
+        "cpi all items": "255.213",
+        "cpi all less food and energy": "262.739",
+        "cpi gasoline": "231.691"
+    },
+    {
+        "date": "07/2019",
+        "cpi all items": "255.802",
+        "cpi all less food and energy": "263.280",
+        "cpi gasoline": "235.098"
+    },
+    {
+        "date": "08/2019",
+        "cpi all items": "256.036",
+        "cpi all less food and energy": "263.877",
+        "cpi gasoline": "229.734"
+    },
+    {
+        "date": "09/2019",
+        "cpi all items": "256.430",
+        "cpi all less food and energy": "264.388",
+        "cpi gasoline": "228.230"
+    },
+    {
+        "date": "10/2019",
+        "cpi all items": "257.155",
+        "cpi all less food and energy": "264.970",
+        "cpi gasoline": "232.348"
+    },
+    {
+        "date": "11/2019",
+        "cpi all items": "257.879",
+        "cpi all less food and energy": "265.548",
+        "cpi gasoline": "236.924"
+    },
+    {
+        "date": "12/2019",
+        "cpi all items": "258.630",
+        "cpi all less food and energy": "266.020",
+        "cpi gasoline": "244.197"
+    },
+    {
+        "date": "01/2020",
+        "cpi all items": "258.906",
+        "cpi all less food and energy": "266.698",
+        "cpi gasoline": "236.879"
+    },
+    {
+        "date": "02/2020",
+        "cpi all items": "259.246",
+        "cpi all less food and energy": "267.402",
+        "cpi gasoline": "229.731"
+    },
+    {
+        "date": "03/2020",
+        "cpi all items": "258.150",
+        "cpi all less food and energy": "267.068",
+        "cpi gasoline": "206.071"
+    },
+    {
+        "date": "04/2020",
+        "cpi all items": "256.126",
+        "cpi all less food and energy": "265.796",
+        "cpi gasoline": "166.640"
+    },
+    {
+        "date": "05/2020",
+        "cpi all items": "255.848",
+        "cpi all less food and energy": "265.461",
+        "cpi gasoline": "160.740"
+    },
+    {
+        "date": "06/2020",
+        "cpi all items": "257.004",
+        "cpi all less food and energy": "265.839",
+        "cpi gasoline": "177.312"
+    },
+    {
+        "date": "07/2020",
+        "cpi all items": "258.408",
+        "cpi all less food and energy": "267.373",
+        "cpi gasoline": "186.943"
+    },
+    {
+        "date": "08/2020",
+        "cpi all items": "259.366",
+        "cpi all less food and energy": "268.390",
+        "cpi gasoline": "190.490"
+    },
+    {
+        "date": "09/2020",
+        "cpi all items": "259.951",
+        "cpi all less food and energy": "268.900",
+        "cpi gasoline": "192.669"
+    },
+    {
+        "date": "10/2020",
+        "cpi all items": "260.249",
+        "cpi all less food and energy": "269.280",
+        "cpi gasoline": "190.486"
+    },
+    {
+        "date": "11/2020",
+        "cpi all items": "260.895",
+        "cpi all less food and energy": "269.967",
+        "cpi gasoline": "191.456"
+    },
+    {
+        "date": "12/2020",
+        "cpi all items": "262.005",
+        "cpi all less food and energy": "270.340",
+        "cpi gasoline": "207.640"
+    },
+    {
+        "date": "01/2021",
+        "cpi all items": "262.518",
+        "cpi all less food and energy": "270.422",
+        "cpi gasoline": "217.944"
+    },
+    {
+        "date": "02/2021",
+        "cpi all items": "263.583",
+        "cpi all less food and energy": "270.813",
+        "cpi gasoline": "233.448"
+    },
+    {
+        "date": "03/2021",
+        "cpi all items": "264.910",
+        "cpi all less food and energy": "271.461",
+        "cpi gasoline": "251.459"
+    },
+    {
+        "date": "04/2021",
+        "cpi all items": "266.752",
+        "cpi all less food and energy": "273.665",
+        "cpi gasoline": "249.270"
+    },
+    {
+        "date": "05/2021",
+        "cpi all items": "268.452",
+        "cpi all less food and energy": "275.494",
+        "cpi gasoline": "251.062"
+    },
+    {
+        "date": "06/2021",
+        "cpi all items": "270.664",
+        "cpi all less food and energy": "277.585",
+        "cpi gasoline": "257.683"
+    },
+    {
+        "date": "07/2021",
+        "cpi all items": "271.994",
+        "cpi all less food and energy": "278.612",
+        "cpi gasoline": "263.835"
+    },
+    {
+        "date": "08/2021",
+        "cpi all items": "272.789",
+        "cpi all less food and energy": "278.993",
+        "cpi gasoline": "270.649"
+    },
+    {
+        "date": "09/2021",
+        "cpi all items": "273.887",
+        "cpi all less food and energy": "279.710",
+        "cpi gasoline": "273.321"
+    },
+    {
+        "date": "10/2021",
+        "cpi all items": "276.434",
+        "cpi all less food and energy": "281.623",
+        "cpi gasoline": "284.966"
+    },
+    {
+        "date": "11/2021",
+        "cpi all items": "278.799",
+        "cpi all less food and energy": "283.393",
+        "cpi gasoline": "302.783"
+    },
+    {
+        "date": "12/2021",
+        "cpi all items": "280.808",
+        "cpi all less food and energy": "285.221",
+        "cpi gasoline": "312.089"
+    },
+    {
+        "date": "01/2022",
+        "cpi all items": "282.390",
+        "cpi all less food and energy": "286.811",
+        "cpi gasoline": "307.114"
+    },
+    {
+        "date": "02/2022",
+        "cpi all items": "284.535",
+        "cpi all less food and energy": "288.287",
+        "cpi gasoline": "322.941"
+    },
+    {
+        "date": "03/2022",
+        "cpi all items": "287.553",
+        "cpi all less food and energy": "289.041",
+        "cpi gasoline": "370.978"
+    },
+    {
+        "date": "04/2022",
+        "cpi all items": "288.764",
+        "cpi all less food and energy": "290.515",
+        "cpi gasoline": "358.023"
+    },
+    {
+        "date": "05/2022",
+        "cpi all items": "291.359",
+        "cpi all less food and energy": "292.072",
+        "cpi gasoline": "373.180"
+    },
+    {
+        "date": "06/2022",
+        "cpi all items": "294.996",
+        "cpi all less food and energy": "293.972",
+        "cpi gasoline": "411.984"
+    },
+    {
+        "date": "07/2022",
+        "cpi all items": "294.977",
+        "cpi all less food and energy": "295.055",
+        "cpi gasoline": "378.082"
+    },
+    {
+        "date": "08/2022",
+        "cpi all items": "295.209",
+        "cpi all less food and energy": "296.569",
+        "cpi gasoline": "339.037"
+    },
+    {
+        "date": "09/2022",
+        "cpi all items": "296.341",
+        "cpi all less food and energy": "298.284",
+        "cpi gasoline": "322.713"
+    },
+    {
+        "date": "10/2022",
+        "cpi all items": "297.863",
+        "cpi all less food and energy": "299.351",
+        "cpi gasoline": "335.141"
+    },
+    {
+        "date": "11/2022",
+        "cpi all items": "298.648",
+        "cpi all less food and energy": "300.292",
+        "cpi gasoline": "333.999"
+    },
+    {
+        "date": "12/2022",
+        "cpi all items": "298.812",
+        "cpi all less food and energy": "301.423",
+        "cpi gasoline": "308.222"
+    },
+    {
+        "date": "01/2023",
+        "cpi all items": "300.356",
+        "cpi all less food and energy": "302.709",
+        "cpi gasoline": "313.215"
+    },
+    {
+        "date": "02/2023",
+        "cpi all items": "301.509",
+        "cpi all less food and energy": "304.124",
+        "cpi gasoline": "316.804"
+    },
+    {
+        "date": "03/2023",
+        "cpi all items": "301.744",
+        "cpi all less food and energy": "305.112",
+        "cpi gasoline": "305.708"
+    },
+    {
+        "date": "04/2023",
+        "cpi all items": "303.032",
+        "cpi all less food and energy": "306.539",
+        "cpi gasoline": "314.286"
+    },
+    {
+        "date": "05/2023",
+        "cpi all items": "303.365",
+        "cpi all less food and energy": "307.646",
+        "cpi gasoline": "300.042"
+    },
+    {
+        "date": "06/2023",
+        "cpi all items": "304.003",
+        "cpi all less food and energy": "308.245",
+        "cpi gasoline": "302.412"
+    },
+    {
+        "date": "07/2023",
+        "cpi all items": "304.628",
+        "cpi all less food and energy": "308.945",
+        "cpi gasoline": "301.784"
+    },
+    {
+        "date": "08/2023",
+        "cpi all items": "306.187",
+        "cpi all less food and energy": "309.656",
+        "cpi gasoline": "326.825"
+    },
+    {
+        "date": "09/2023",
+        "cpi all items": "307.288",
+        "cpi all less food and energy": "310.644",
+        "cpi gasoline": "332.019"
+    },
+    {
+        "date": "10/2023",
+        "cpi all items": "307.531",
+        "cpi all less food and energy": "311.390",
+        "cpi gasoline": "317.678"
+    },
+    {
+        "date": "11/2023",
+        "cpi all items": "308.024",
+        "cpi all less food and energy": "312.349",
+        "cpi gasoline": "304.982"
+    },
+    {
+        "date": "12/2023",
+        "cpi all items": "308.742",
+        "cpi all less food and energy": "313.209",
+        "cpi gasoline": "303.242"
+    },
+    {
+        "date": "01/2024",
+        "cpi all items": "309.685",
+        "cpi all less food and energy": "314.438",
+        "cpi gasoline": "293.287"
+    },
+    {
+        "date": "02/2024",
+        "cpi all items": "311.054",
+        "cpi all less food and energy": "315.565",
+        "cpi gasoline": "304.302"
+    },
+    {
+        "date": "03/2024",
+        "cpi all items": "312.230",
+        "cpi all less food and energy": "316.698",
+        "cpi gasoline": "309.587"
+    },
+    {
+        "date": "04/2024",
+        "cpi all items": "313.207",
+        "cpi all less food and energy": "317.622",
+        "cpi gasoline": "318.186"
+    },
+    {
+        "date": "05/2024",
+        "cpi all items": "313.225",
+        "cpi all less food and energy": "318.140",
+        "cpi gasoline": "306.599"
+    },
+    {
+        "date": "06/2024",
+        "cpi all items": "313.049",
+        "cpi all less food and energy": "318.346",
+        "cpi gasoline": "294.968"
+    }
+]
