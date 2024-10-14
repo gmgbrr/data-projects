@@ -10,3 +10,4 @@
 | `Transformando dados de API`| `Manipulando informações da API do BLS e montando minha própria API` | `pandas` `fastapi` `plotly` |
 | `Web Scrapping OLX`| `Automação para pegar informações sobre carros na OLX` | `selenium` `pyautogui` `beautifulsoup` |
 | `Who is drunk and when in Ames, Iowa?`| `Analisando os dados de bafômetros em Ames, Iowa` | `pandas` `matplotlib` `numpy` |
+| `O Problema de Monty Hall`| `Testando o paradoxo matemático de Monty Hall` | `lógica` |
